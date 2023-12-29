@@ -568,7 +568,6 @@ body {
 .header__noise {
   position: relative;
   height: 95vh;
-  background-image: url("/Portafolio/img/noise.png");
   position: absolute;
   top: 0%;
   left: 0%;
@@ -578,7 +577,7 @@ body {
   bottom: -50%;
   width: 200vw;
   height: 250%;
-  background: transparent url("/Portafolio/img/noise-transparent.png") repeat 0 0;
+  background: transparent url("/Portafolio/img/noise.png") repeat 0 0;
   background-repeat: repeat;
   animation: bg-animation 0.2s infinite;
   opacity: 0.9;
