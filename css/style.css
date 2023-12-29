@@ -568,7 +568,7 @@ body {
 .header__noise {
   position: relative;
   height: 95vh;
-  background-image: url("../../img/noise-transparent.png");
+  background-image: url("/Portafolio/img/noise.png");
   position: absolute;
   top: 0%;
   left: 0%;
@@ -578,7 +578,7 @@ body {
   bottom: -50%;
   width: 200vw;
   height: 250%;
-  background: transparent url("../../img/noise-transparent.png") repeat 0 0;
+  background: transparent url("/Portafolio/img/noise-transparent.png") repeat 0 0;
   background-repeat: repeat;
   animation: bg-animation 0.2s infinite;
   opacity: 0.9;
@@ -607,7 +607,7 @@ body {
 @media only screen and (max-width: 37.5em) {
   .header__texts {
     margin-top: 0px;
-    height: auto;
+    height: 75%;
     gap: 20px;
   }
 }
@@ -902,7 +902,8 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .latest-works {
-    font-size: 4rem;
+    font-size: 5.2rem;
+    line-height: normal;
   }
 }
 
@@ -926,6 +927,7 @@ body {
   }
 }
 .portfolio-section__button {
+  white-space: nowrap;
   text-decoration: none;
   border-radius: 100px;
   font-size: 2rem;
